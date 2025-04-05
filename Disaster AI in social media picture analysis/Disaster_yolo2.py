@@ -6,7 +6,7 @@ import os
 model = YOLO("yolov8n.pt")  
 
 
-image_folder = r"C:\Users\Ashwini\Desktop\disaster_images"
+image_folder = r"C:\Users\Ashwini\Desktop\Disaster AI in social media picture analysis"
 
 # function to simulate GPS + emergency response
 def send_to_emergency_services(file_path, coords=(12.9716, 77.5946)): #Assuming coordinates
